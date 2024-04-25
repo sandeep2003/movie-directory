@@ -1,0 +1,49 @@
+.cast_list_content {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  column-gap: 8px;
+}
+
+.cast_card,
+.cast_list_more {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  column-gap: 8px;
+  row-gap: 8px;
+  background-color: #1a2028;
+  border-radius: 8px;
+}
+
+.cast_list_more {
+  cursor: pointer;
+  justify-content: center;
+}
+
+.cast_card_header {
+  border-radius: 8px;
+  max-width: 185px;
+  height: 278px;
+  max-height: 278px;
+  display: flex;
+  align-items: center;
+}
+
+.cast_card_header img {
+  height: 100px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.cast_card_content {
+  margin-top: 0.5rem;
+}
+.cast_card_content * {
+  text-align: center;
+}

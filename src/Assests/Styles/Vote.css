@@ -1,0 +1,26 @@
+.vote {
+  margin: 10px 0;
+}
+.vote_list {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+}
+.vote_list_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.vote_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid greenyellow;
+  border-radius: 50%;
+  padding: 5px;
+  height: 3rem;
+  width: 3rem;
+}

@@ -1,0 +1,41 @@
+.movie {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem; 
+}
+.movie_info_title h1 {
+    margin: 0px;
+}
+.movie_hero_content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 15px;
+}
+.movie_info {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+.movie_poster img {
+  height: 35rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.movie_info_vote {
+  display: flex;
+  column-gap: 5px;
+}
+
+.movie_cast_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.movie_cast_item_img img {
+    border-radius: 8px;
+}
